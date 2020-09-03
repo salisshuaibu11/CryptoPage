@@ -1,0 +1,53 @@
+// FOOTER 
+.footer {
+    display: flex;
+    flex-direction: column;
+    background: #344563;
+  
+    padding: 8rem 0;
+    &__icon {
+      padding: 0 10rem;
+      color: #fff;
+      font-weight: 500;
+      margin-top: -40px;
+    }
+  
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 3rem;
+      padding: 0 10rem;
+    }
+  
+    &__link {
+      color: rgb(233, 229, 229);
+      font-size: 1.5rem;
+    }
+  
+    &__btn {
+      border: none;
+      outline: none;
+      background: #F2A900;
+      color: #fff;
+      padding: .9rem 2rem;
+  
+      margin-top: 1.2rem;
+      float: right;
+    }
+  
+    &__crypto {
+      align-self: flex-end;
+      margin-top: 4rem;
+      margin-bottom: -6rem;
+      padding: 0 10rem 0 0;
+    }
+  }
+  
+  
+// HORIZONTAL LINE STYLE
+hr {
+  height: 3px;
+  border: none;
+  background-color: #F2A900;
+  transform: translateY(4rem);
+}

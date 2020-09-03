@@ -1,0 +1,111 @@
+// FEATURE
+.features {
+  display: grid;
+  // grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 1rem;
+  padding: 0 10rem;
+
+  &__title {
+    grid-column: 1 / -1;
+    margin: 4rem 0;
+    font-size: 3rem;
+    color: #344563;
+    font-weight: 900;
+  }
+
+  &__btn {
+    margin-top: 8rem;
+    grid-column: 2 / 3;
+    text-align: center;
+    width: 45%;
+    padding: .5rem 2rem !important;
+  }
+}
+
+.feature {
+  width: 63.333%;
+
+  &__heading {
+    font-size: 1.7rem;
+    color: rgb(3, 26, 68);
+    margin-bottom: 2rem;
+  }
+
+  &__icon {
+    width: 5.5rem;
+    height: 5.5rem;
+    padding: 1rem;
+    border: 1px solid #c6ccd8;
+    box-shadow: 0rem 1rem 2rem #ddd;
+    fill: #f35f24;
+    border-radius: 100%;
+  }
+
+  &__text {
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+}
+
+
+// SPONSORS
+.sponsors {
+  background: rgb(248, 246, 246);
+  padding: 10rem 10rem;
+  margin-top: 8rem;
+
+  &__title {
+    margin-bottom: 3rem;
+    font-size: 3.5rem;
+    color: #344563;
+  }
+
+  &__names {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.5rem;
+  }
+}
+
+// NEWSLETTER
+.subscribe {
+  padding: 10rem 10rem;
+  display: flex;
+  justify-content: space-between;
+
+  &__text {
+
+    &--main {
+      display: block;
+      font-size: 2.5rem;
+      color: #344563;
+      font-weight: 900;
+    }
+
+    &--sub {
+      display: block;
+      font-size: 1.5rem;
+      color: #344563;
+    }
+  }
+
+  &__form {
+    margin-right: 15rem;
+  }
+
+  &__form input {
+    padding: 1rem 4rem;
+    margin-right: 2rem;
+  }
+  &__form button {
+    outline: none;
+    border: none;
+    padding: 1.2rem 1.5rem;
+    background: #F2A900;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+}
+
